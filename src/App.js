@@ -109,7 +109,7 @@ export default function App() {
     });
 
   const configsButton = (
-    <VuiBox
+      <VuiBox
       display="flex"
       justifyContent="center"
       alignItems="center"
@@ -141,7 +141,7 @@ export default function App() {
             <Sidenav
               color={sidenavColor}
               brand=""
-              brandName="VISION UI FREE"
+              brandName="SMART HELMET"
               routes={routes}
               onMouseEnter={handleOnMouseEnter}
               onMouseLeave={handleOnMouseLeave}
@@ -165,13 +165,11 @@ export default function App() {
           <Sidenav
             color={sidenavColor}
             brand=""
-            brandName="VISION UI FREE"
+            brandName="SMART HELMET"
             routes={routes}
             onMouseEnter={handleOnMouseEnter}
             onMouseLeave={handleOnMouseLeave}
           />
-          <Configurator />
-          {configsButton}
         </>
       )}
       {layout === "vr" && <Configurator />}

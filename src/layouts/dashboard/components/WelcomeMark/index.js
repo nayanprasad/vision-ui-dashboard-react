@@ -4,7 +4,7 @@ import { Card, Icon } from "@mui/material";
 import VuiBox from "components/VuiBox";
 import VuiTypography from "components/VuiTypography";
 
-import gif from "assets/images/cardimgfree.png";
+import gif from "assets/images/smart-helmet/cp-helmet.jpeg";
 
 const WelcomeMark = () => {
   return (
@@ -19,9 +19,6 @@ const WelcomeMark = () => {
         <VuiBox>
           <VuiTypography color="text" variant="button" fontWeight="regular" mb="12px">
             Welcome back,
-          </VuiTypography>
-          <VuiTypography color="white" variant="h3" fontWeight="bold" mb="18px">
-            Mark Johnson
           </VuiTypography>
           <VuiTypography color="text" variant="h6" fontWeight="regular" mb="auto">
             Glad to see you again!

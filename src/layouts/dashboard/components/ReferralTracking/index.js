@@ -25,7 +25,7 @@ function ReferralTracking() {
 					sx={{ width: '100%' }}
 					mb='40px'>
 					<VuiTypography variant='lg' color='white' mr='auto' fontWeight='bold'>
-						Referral Tracking
+						Safety Tracking
 					</VuiTypography>
 					<VuiBox
 						display='flex'
@@ -47,7 +47,7 @@ function ReferralTracking() {
 						},
 						[breakpoints.up('md')]: {
 							flexDirection: 'row',
-							justifyContent: 'flex-start',
+							justifyContent: 'center',
 							alignItems: 'center'
 						}
 					})}>
@@ -66,52 +66,6 @@ function ReferralTracking() {
 								maxWidth: '40%'
 							}
 						})}>
-						<VuiBox
-							display='flex'
-							width='220px'
-							p='20px 22px'
-							flexDirection='column'
-							sx={({ breakpoints }) => ({
-								background: linearGradient(cardContent.main, cardContent.state, cardContent.deg),
-								borderRadius: '20px',
-								[breakpoints.up('xl')]: {
-									maxWidth: '110px !important'
-								},
-								[breakpoints.up('xxl')]: {
-									minWidth: '180px',
-									maxWidth: '100% !important'
-								}
-							})}>
-							<VuiTypography color='text' variant='button' fontWeight='regular' mb='5px'>
-								Invited
-							</VuiTypography>
-							<VuiTypography color='white' variant='lg' fontWeight='bold'>
-								145 people
-							</VuiTypography>
-						</VuiBox>
-						<VuiBox
-							display='flex'
-							width='220px'
-							p='20px 22px'
-							flexDirection='column'
-							sx={({ breakpoints }) => ({
-								background: linearGradient(cardContent.main, cardContent.state, cardContent.deg),
-								borderRadius: '20px',
-								[breakpoints.up('xl')]: {
-									maxWidth: '110px !important'
-								},
-								[breakpoints.up('xxl')]: {
-									minWidth: '180px',
-									maxWidth: '100% !important'
-								}
-							})}>
-							<VuiTypography color='text' variant='button' fontWeight='regular' mb='5px'>
-								Bonus
-							</VuiTypography>
-							<VuiTypography color='white' variant='lg' fontWeight='bold'>
-								1,465
-							</VuiTypography>
-						</VuiBox>
 					</Stack>
 					<VuiBox sx={{ position: 'relative', display: 'inline-flex' }}>
 						<CircularProgress
