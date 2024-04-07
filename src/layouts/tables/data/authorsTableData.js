@@ -64,16 +64,15 @@ function Function({ job, org }) {
 
 export default {
   columns: [
-    { name: "author", align: "left" },
+    { name: "user", align: "left" },
     { name: "function", align: "left" },
     { name: "status", align: "center" },
-    { name: "employed", align: "center" },
     { name: "action", align: "center" },
   ],
 
   rows: [
     {
-      author: <Author image={avatar4} name="Esthera Jackson" email="esthera@simmmple.com" />,
+      user: <Author image={avatar4} name="Esthera Jackson" email="esthera@simmmple.com" />,
       function: <Function job="Manager" org="Organization" />,
       status: (
         <VuiBadge
@@ -102,7 +101,7 @@ export default {
       ),
     },
     {
-      author: <Author image={avatar2} name="Alexa Liras" email="alexa@simmmple.com" />,
+      user: <Author image={avatar2} name="Alexa Liras" email="alexa@simmmple.com" />,
       function: <Function job="Programator" org="Developer" />,
       status: (
         <VuiBadge
@@ -130,7 +129,7 @@ export default {
       ),
     },
     {
-      author: <Author image={avatar3} name="Laurent Michael" email="laurent@simmmple.com" />,
+      user: <Author image={avatar3} name="Laurent Michael" email="laurent@simmmple.com" />,
       function: <Function job="Executive" org="Projects" />,
       status: (
         <VuiBadge
@@ -159,7 +158,7 @@ export default {
       ),
     },
     {
-      author: <Author image={avatar1} name="Freduardo Hill" email="freduardo@simmmple.com" />,
+      user: <Author image={avatar1} name="Freduardo Hill" email="freduardo@simmmple.com" />,
       function: <Function job="Programator" org="Developer" />,
       status: (
         <VuiBadge
@@ -188,7 +187,7 @@ export default {
       ),
     },
     {
-      author: <Author image={avatar5} name="Daniel Thomas" email="daniel@simmmple.com" />,
+      user: <Author image={avatar5} name="Daniel Thomas" email="daniel@simmmple.com" />,
       function: <Function job="Manager" org="Executive" />,
       status: (
         <VuiBadge
@@ -216,7 +215,7 @@ export default {
       ),
     },
     {
-      author: <Author image={avatar6} name="Mark Wilson" email="mark@simmmple.com" />,
+      user: <Author image={avatar6} name="Mark Wilson" email="mark@simmmple.com" />,
       function: <Function job="Programtor" org="Developer" />,
       status: (
         <VuiBadge
